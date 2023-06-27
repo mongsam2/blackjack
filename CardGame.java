@@ -8,7 +8,7 @@ public class CardGame {
 		HumanPlayer p = new HumanPlayer(5, 10000);
 		ComputerPlayer d = new ComputerPlayer(5, 0);
 		GameModel m = new GameModel(p, d, cd);
-	    GameFrame f = new GameFrame(m, p, d, cd);
+	    	GameFrame f = new GameFrame(m, p, d, cd);
 	    
 		/*boolean p1_wants_card = true;
 	    boolean p2_wants_card = true;
